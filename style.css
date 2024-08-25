@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 20px;
+    background-color: black;
+    color: wheat;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.img{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.img img{
+    height: 50px;
+    width: 50px;
+}
+.box{
+    height: 80vh;
+    width: 60vw;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 4px;
+    display: flex;
+    margin-right: 35px;
+}
+h3{
+    margin-left: -10px;
+}
+button{
+    height: auto;
+    width: auto;
+    margin: 5px 5px;
+    outline: none;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.158);
+    color: white;
+    cursor: pointer;
+    border-radius: 4%;
+    padding: 4px 8px;
+}
+button:hover{
+    border: 1px solid black;
+}

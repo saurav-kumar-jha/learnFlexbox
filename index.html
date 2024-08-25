@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+        <div class="box" id="box">
+            <div class="img">
+                <img src="smiley-removebg-preview.png" alt="">
+            </div>
+            <div class="img" id="img2" style="display: none;">
+                <img src="smiley-removebg-preview.png" alt="">
+            </div>
+            <div class="img" id="img3" style="display: none;">
+                <img src="smiley-removebg-preview.png" alt="">
+            </div>
+        </div>
+        <div class="btn">
+            <div class="btn-num">
+                <h3>Number of EMOJI:-</h3>
+                <button onclick="btn2()">2</button>
+                <button onclick="btn3()">3</button>
+            </div>
+            <div class="jcc-btn">
+                <h3>JUSTIFY CONTENT:-</h3>
+                <button onclick="jccenter()">CENTER</button>
+                <button onclick="jcspacebtw()">SPACE-BETWEEN</button>
+                <button onclick="jcsacearnd()">SPACE-AROUND</button>
+                <button onclick="jcspaceevn()">SPACE-EVENLY</button>
+                <button onclick="jcstart()">START</button>
+                <button onclick="jcend()">END</button>
+            </div>
+            <div class="ai-btn">
+                <h3>ALIGN ITEM:-</h3>
+                <button onclick="aicenter()">CENTER</button>
+                <button onclick="aistart()">START</button>
+                <button onclick="aiend()">END</button>
+                <button onclick="aibase()">BASELINE</button>
+            </div>
+            <div class="reset-btn">
+                <h3>RESET CSS:-</h3>
+                <button onclick="resetAll()">RESET</button>
+            </div>
+        </div>
+   </div>
+   <script src="script.js"></script>
+</body>
+</html>
