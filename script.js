@@ -1,6 +1,6 @@
-const img2 = document.getElementById("img2")
-const img3 = document.getElementById("img3")
-const box = document.getElementById("box")
+const img2 = document.getElementById("img2") 
+const img3 = document.getElementById("img3") 
+const box = document.getElementById("box") 
 
 
 function btn2(){
@@ -11,8 +11,9 @@ function btn2(){
     }
 }
 function btn3(){
-    if(img3.style.display == "block" ||img2.style.display == "block"  ){
+    if(img3.style.display == "block"  ){
         img3.style.display = "none"
+        img2.style.display = "none"
     }else{
         img3.style.display = "block"
         img2.style.display = "block"
